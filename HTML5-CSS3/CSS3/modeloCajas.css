@@ -1,0 +1,32 @@
+*{
+    /* se aplica a todo el documento html */
+}
+#id{
+    /* se aplica a los id del html */
+}
+.class{
+    /* se aplica a las clases del documento html */
+}
+
+etiqueta1, etiqueta2{
+    /* se aplica a las etiquetas establecidad en el mismo rango del documento html */    
+}
+
+etiqueta1 etiqueta2{
+    /* se aplica a las etiqueta2 dentro de la etiqueta1 del documento html */    
+}
+
+selector1>selector2{
+        /* se aplica al selector2 mas director dentro del selector1 del documento html */    
+    
+}
+
+selector1+selector2{
+    /* se aplica al selector2 que esta despues del selector1 del documento html */    
+
+}
+
+selector1~selector2{
+    /* se aplica al selector2 que esta antes del selector1 del documento html */    
+
+}
